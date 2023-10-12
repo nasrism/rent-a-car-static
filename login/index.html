@@ -52,7 +52,7 @@ img.emoji {
 <meta name="generator" content="Elementor 3.16.4; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
 
 </head>
-<body class="page-template-default page page-id-15 wp-custom-logo elementor-default elementor-kit-125">
+<body class="page-template page-template-login page-template-login-php page page-id-15 wp-custom-logo elementor-default elementor-kit-125">
     <header class="site-header">
         <div class="limited-range">
             <a href="https://nasrism.github.io/rent-a-car-static" class="logo"> <img src="https://nasrism.github.io/rent-a-car-static/wp-content/uploads/2023/10/rent-a-car-logo.png" alt=""> </a>    
@@ -68,18 +68,19 @@ img.emoji {
                     <div class="top-sub-content">
                         <i class="fa-solid fa-bars" onclick="navbar()"></i>
                         <div class="top-sub-content-detail">
-                            <div class="menu-left-footer-menu-links-container"><ul id="menu-left-footer-menu-links" class="menu">
-<li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="https://nasrism.github.io/rent-a-car-static/faq/">FAQ</a></li>
-<li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34"><a href="https://nasrism.github.io/rent-a-car-static/termsandcondition/">Terms and Condition</a></li>
+                            <div class="menu-navigation-menu-links-container"><ul id="menu-navigation-menu-links" class="menu">
+<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-15 current_page_item menu-item-25"><a href="https://nasrism.github.io/rent-a-car-static/login/" aria-current="page">Log In</a></li>
+<li id="menu-item-109" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109"><a href="https://nasrism.github.io/rent-a-car-static/review/">Review</a></li>
+<li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="https://nasrism.github.io/rent-a-car-static/about-me/">About Me</a></li>
 </ul></div>                        </div>
                     </div>
                 </div>
 
                 <div class="list-nav">
-                    <div class="menu-navigation-menu-links-container"><ul id="menu-navigation-menu-links" class="menu">
-<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-15 current_page_item menu-item-25"><a href="https://nasrism.github.io/rent-a-car-static/login/" aria-current="page">Log In</a></li>
-<li id="menu-item-109" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109"><a href="https://nasrism.github.io/rent-a-car-static/review/">Review</a></li>
-<li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="https://nasrism.github.io/rent-a-car-static/about-me/">About Me</a></li>
+                    <div class="menu-navigation-menu-links-container"><ul id="menu-navigation-menu-links-1" class="menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-15 current_page_item menu-item-25"><a href="https://nasrism.github.io/rent-a-car-static/login/" aria-current="page">Log In</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109"><a href="https://nasrism.github.io/rent-a-car-static/review/">Review</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="https://nasrism.github.io/rent-a-car-static/about-me/">About Me</a></li>
 </ul></div>                    
                 </div>
             </nav>
@@ -87,16 +88,24 @@ img.emoji {
     </header>
     
     <div class="limited-range">
-
- 
 <div class="items-container">
-   
-    <article class="item-container suli">        <h2>
-            Log In        </h2>
-          
+<article class="item-container suli"><h2>Log In</h2>  
+        <input type="email" name="email" id="" placeholder="Email" class="fill-theme">
+        <input type="password" name="password" id="password" placeholder="Password" class="fill-theme">
+        <div class="show-pass">
+            <input type="checkbox" name="" id="show-password" onclick="toggle()">
+            <label for="show-password">show-password</label>
+        </div>
+        <div class="enter-button">
+            <a href="https://nasrism.github.io/rent-a-car-static/signup/">Don't have account?</a>
+            <a class="enter"><b>Log in</b></a>
+        </div>
         </article>
         
-        </div>    </div>
+        </div>
+<script>const password = document.getElementById('password');
+        toggle=()=> password.type==="password"?password.type="text":password.type="password";</script>
+    </div>
 
 <footer class="site-footer">
     <div class="footer-container">
@@ -110,9 +119,9 @@ img.emoji {
 
         <nav class="site-nav footer-left">
             
-                            <div class="menu-left-footer-menu-links-container"><ul id="menu-left-footer-menu-links-1" class="menu">
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="https://nasrism.github.io/rent-a-car-static/faq/">FAQ</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34"><a href="https://nasrism.github.io/rent-a-car-static/termsandcondition/">Terms and Condition</a></li>
+                            <div class="menu-left-footer-menu-links-container"><ul id="menu-left-footer-menu-links" class="menu">
+<li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="https://nasrism.github.io/rent-a-car-static/faq/">FAQ</a></li>
+<li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34"><a href="https://nasrism.github.io/rent-a-car-static/termsandcondition/">Terms and Condition</a></li>
 </ul></div>                    
         </nav>
     </div>
