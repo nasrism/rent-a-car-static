@@ -119,8 +119,13 @@ small {font-size: 0.750rem; /* 12px */}
   justify-content: space-between;
 
   }
+
+  
+
   & img{
+  max-height: 95px;
   height:10vh;
+
 }
 
   & h5{
@@ -128,6 +133,12 @@ small {font-size: 0.750rem; /* 12px */}
     width: fit-content;
   }
 }
+
+  .site-footer{
+    position: sticky;
+    top: 100%;
+    left: 0;
+  }
 
 .site-nav{
 
@@ -771,10 +782,9 @@ scale:0.7;
   }
 
   .site-header{
-    top: 46px;
+    top: 0;
     left: 0;
   }
-  
   
 .side-choose{
   display: flex;
